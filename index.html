@@ -2,11 +2,57 @@
 <html>
 <head>
     <title>Student Assistant Chatbot</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        h1 {
+            font-size: 40px;
+            animation: glow 2s infinite alternate;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 10px #fff; }
+            to { text-shadow: 0 0 20px #00f, 0 0 30px #0ff; }
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background: #ff7b00;
+            color: white;
+            padding: 12px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ffae42;
+            transform: scale(1.1);
+        }
+    </style>
 </head>
+
 <body>
 
-<h1>Welcome to Student Assistant Chatbot 🎓</h1>
-<p>This chatbot helps students with doubts, career guidance, and insights.</p>
+<h1>🎓 Student Assistant Chatbot</h1>
+<p>Your smart guide for doubts, career advice, and insights 🚀</p>
+
+<button class="btn" onclick="alert('Click the chat icon below to start!')">
+    Start Chat 💬
+</button>
 
 <!-- WotNot Chatbot Script -->
 <script src="https://app.wotnot.io/chat-widget/5ZcifkFhnzYj071957451557K7CYQm6y.js" defer></script>

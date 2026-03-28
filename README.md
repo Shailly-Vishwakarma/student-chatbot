@@ -1,2 +1,2 @@
 # student-chatbot
-Student Assistant Chatbot using WotNot deployed on GitHub Pages
+An interactive chatbot integrated into a website using WotNot and GitHub Pages for student support and guidance.
